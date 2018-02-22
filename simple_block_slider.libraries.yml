@@ -1,0 +1,11 @@
+simple_block_slider_assests:
+  version: 1.x
+  css:
+    theme:
+      vendor/swiper/css/swiper.min.css: {}
+      css/simple_block_slider.css: {}
+  js:
+    vendor/swiper/js/swiper.min.js: {}
+    js/simple_block_slider.js: {}
+  dependencies:
+    - core/jquery
