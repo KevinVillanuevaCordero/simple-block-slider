@@ -53,6 +53,7 @@ function simple_block_slider_theme($existing, $type, $theme, $path) {
  */
 function simple_block_slider_preprocess_paragraph(&$variables) {
   if (isset($variables['content']['field_sbs_background'])) {
-    $variables['#attached']['library'][] = 'simple_block_slider/simple_block_slider_assests';
+    $variables['#attached']['library'][] = 'simple_block_slider/simple_block_slider.assests';
+    $variables['#attached']['library'][] = 'simple_block_slider/simple_block_slider.swiper';
   }
 }
